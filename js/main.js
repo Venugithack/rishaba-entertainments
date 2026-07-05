@@ -59,7 +59,7 @@
     });
     // reset when resizing back to desktop
     window.addEventListener("resize", function () {
-      if (window.innerWidth > 720 && links.classList.contains("is-open")) closeMenu();
+      if (window.innerWidth > 900 && links.classList.contains("is-open")) closeMenu();
     });
   }
 
