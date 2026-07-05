@@ -139,12 +139,12 @@
         "Email: " + email + "\n\n" +
         message;
       var mailto =
-        "mailto:jananisen@gmail.com" +
+        "mailto:srinivas@rishabaentertainments.com,jananisen@gmail.com" +
         "?subject=" + encodeURIComponent(subject || ("Enquiry from " + name)) +
         "&body=" + encodeURIComponent(mailBody);
 
       window.location.href = mailto;
-      note.textContent = "Opening your email app… if nothing happens, write to jananisen@gmail.com";
+      note.textContent = "Opening your email app… if nothing happens, write to srinivas@rishabaentertainments.com";
       note.className = "form__note is-ok";
       form.reset();
     });
