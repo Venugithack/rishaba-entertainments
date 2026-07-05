@@ -1,0 +1,12 @@
+# Editor / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling
+.claude/
+
+# Personal / source files not needed for the public site
+DURGA JANANI.pdf
+/logo.png
+/logo 2.png
