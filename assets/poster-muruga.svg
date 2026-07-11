@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Muruga film poster">
+  <defs>
+    <linearGradient id="mBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#182233"/>
+      <stop offset="0.45" stop-color="#0f141b"/>
+      <stop offset="1" stop-color="#080a0e"/>
+    </linearGradient>
+    <radialGradient id="mGlow" cx="0.5" cy="0.28" r="0.6">
+      <stop offset="0" stop-color="#6c9bd1" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#6c9bd1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a9cbee"/>
+      <stop offset="1" stop-color="#2c4a70"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="600" fill="url(#mBg)"/>
+  <rect width="400" height="600" fill="url(#mGlow)"/>
+
+  <!-- film-strip edges -->
+  <g fill="#000000" opacity="0.55">
+    <rect x="0" y="0" width="20" height="600"/>
+    <rect x="380" y="0" width="20" height="600"/>
+  </g>
+  <g fill="#f0ead9" opacity="0.14">
+    <rect x="6" y="16" width="8" height="12" rx="2"/><rect x="6" y="48" width="8" height="12" rx="2"/><rect x="6" y="80" width="8" height="12" rx="2"/><rect x="6" y="112" width="8" height="12" rx="2"/><rect x="6" y="144" width="8" height="12" rx="2"/><rect x="6" y="176" width="8" height="12" rx="2"/><rect x="6" y="208" width="8" height="12" rx="2"/><rect x="6" y="240" width="8" height="12" rx="2"/><rect x="6" y="272" width="8" height="12" rx="2"/><rect x="6" y="304" width="8" height="12" rx="2"/><rect x="6" y="336" width="8" height="12" rx="2"/><rect x="6" y="368" width="8" height="12" rx="2"/><rect x="6" y="400" width="8" height="12" rx="2"/><rect x="6" y="432" width="8" height="12" rx="2"/><rect x="6" y="464" width="8" height="12" rx="2"/><rect x="6" y="496" width="8" height="12" rx="2"/><rect x="6" y="528" width="8" height="12" rx="2"/><rect x="6" y="560" width="8" height="12" rx="2"/>
+    <rect x="386" y="16" width="8" height="12" rx="2"/><rect x="386" y="48" width="8" height="12" rx="2"/><rect x="386" y="80" width="8" height="12" rx="2"/><rect x="386" y="112" width="8" height="12" rx="2"/><rect x="386" y="144" width="8" height="12" rx="2"/><rect x="386" y="176" width="8" height="12" rx="2"/><rect x="386" y="208" width="8" height="12" rx="2"/><rect x="386" y="240" width="8" height="12" rx="2"/><rect x="386" y="272" width="8" height="12" rx="2"/><rect x="386" y="304" width="8" height="12" rx="2"/><rect x="386" y="336" width="8" height="12" rx="2"/><rect x="386" y="368" width="8" height="12" rx="2"/><rect x="386" y="400" width="8" height="12" rx="2"/><rect x="386" y="432" width="8" height="12" rx="2"/><rect x="386" y="464" width="8" height="12" rx="2"/><rect x="386" y="496" width="8" height="12" rx="2"/><rect x="386" y="528" width="8" height="12" rx="2"/><rect x="386" y="560" width="8" height="12" rx="2"/>
+  </g>
+
+  <!-- reel emblem -->
+  <g transform="translate(200 205)" fill="none" stroke="url(#mRing)">
+    <circle r="70" stroke-width="2" opacity="0.9"/>
+    <circle r="20" stroke-width="2"/>
+    <g fill="#a9cbee" stroke="none" opacity="0.9">
+      <circle cx="0" cy="-45" r="8"/><circle cx="45" cy="0" r="8"/><circle cx="0" cy="45" r="8"/><circle cx="-45" cy="0" r="8"/>
+      <circle cx="32" cy="-32" r="6"/><circle cx="32" cy="32" r="6"/><circle cx="-32" cy="32" r="6"/><circle cx="-32" cy="-32" r="6"/>
+    </g>
+  </g>
+
+  <!-- category -->
+  <text x="200" y="360" text-anchor="middle" fill="#6c9bd1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="6">FEATURE FILM</text>
+
+  <!-- title -->
+  <text x="200" y="430" text-anchor="middle" fill="#f0ead9" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="700" letter-spacing="1">Muruga</text>
+
+  <!-- rule -->
+  <rect x="160" y="452" width="80" height="2" fill="#6c9bd1"/>
+
+  <text x="200" y="486" text-anchor="middle" fill="#c3bda9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="3">TAMIL CINEMA</text>
+
+  <text x="200" y="566" text-anchor="middle" fill="#837e70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="4">RISHABA ENTERTAINMENTS</text>
+</svg>
