@@ -431,6 +431,7 @@ p { color: var(--ink-soft); }
 .collab-card__name { font-family: var(--serif); font-size: 1.1rem; color: var(--ink); margin: 0; line-height: 1.2; }
 .collab-card__role { font-size: .72rem; text-transform: uppercase; letter-spacing: .14em; color: var(--blue); margin: .3rem 0 0; }
 .collab-card__proj { font-size: .82rem; color: var(--ink-dim); margin: .15rem 0 0; }
+.proj-hl { color: var(--blue); font-weight: 600; }
 .collab__note { margin: 1.4rem 0 0; font-size: .8rem; color: var(--ink-dim); font-style: italic; }
 
 /* ============================================================
