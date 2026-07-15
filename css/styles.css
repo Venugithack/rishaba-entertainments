@@ -315,6 +315,10 @@ p { color: var(--ink-soft); }
   background: linear-gradient(135deg, #1a1e26, #0e1116);
 }
 .project__poster img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* Horizontal (16:9) posters — full-width banner sized to the image */
+.project--wide { grid-template-columns: 1fr; gap: 1.4rem; }
+.project--wide .project__poster { aspect-ratio: 16 / 9; min-height: 0; width: 100%; }
 .project__meta { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: .8rem; }
 .tag {
   font-size: .68rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 600;
