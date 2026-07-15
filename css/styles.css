@@ -320,7 +320,7 @@ p { color: var(--ink-soft); }
 .project--wide { grid-template-columns: 1fr; gap: 1.4rem; }
 .project--wide .project__poster { min-height: 0; width: 100%; aspect-ratio: auto; }
 .project--wide .project__poster img { height: auto; object-fit: contain; }
-.project--wide .project__poster img.poster-zoom { transform: scale(1.14); transform-origin: center; }
+.project--wide .project__poster img.poster-zoom { transform: scale(1.06); transform-origin: center; }
 .project__meta { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: .8rem; }
 .tag {
   font-size: .68rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 600;
