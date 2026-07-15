@@ -81,9 +81,9 @@ strong { color: var(--ink); font-weight: 600; }
   margin: 0 0 1rem;
 }
 
-.section { padding: clamp(4.5rem, 9vw, 8rem) 0; position: relative; }
+.section { padding: clamp(2.8rem, 5.5vw, 5rem) 0; position: relative; }
 .section__title { font-size: clamp(1.9rem, 4vw, 3rem); letter-spacing: -.01em; }
-.section__head { max-width: 720px; margin-bottom: 3.2rem; }
+.section__head { max-width: 720px; margin-bottom: 2.2rem; }
 .section__sub { color: var(--ink-soft); margin-top: 1rem; }
 .lead { font-size: 1.15rem; color: var(--ink-soft); }
 p { color: var(--ink-soft); }
@@ -550,8 +550,8 @@ p { color: var(--ink-soft); }
 @media (max-width: 720px) {
   body { font-size: 16px; }
 
-  .section { padding: clamp(3.5rem, 12vw, 5rem) 0; }
-  .section__head { margin-bottom: 2.4rem; }
+  .section { padding: clamp(2.2rem, 8vw, 3.2rem) 0; }
+  .section__head { margin-bottom: 1.7rem; }
   .cards, .ventures, .about__stats, .collab-grid { grid-template-columns: 1fr; }
   .about__stats { max-width: none; }
   .card { padding: 1.7rem 1.4rem; }
