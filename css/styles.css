@@ -324,7 +324,7 @@ p { color: var(--ink-soft); }
 
 /* Vertical posters — sized to the artwork's own 3:5 ratio so nothing is cropped */
 .project--tall { grid-template-columns: 220px 1fr; align-items: start; }
-.project--tall .project__poster { align-self: start; min-height: 0; aspect-ratio: 961 / 1600; }
+.project--tall .project__poster { align-self: start; min-height: 0; aspect-ratio: 971 / 1620; }
 .project__meta { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: .8rem; }
 .tag {
   font-size: .68rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 600;
@@ -573,7 +573,7 @@ p { color: var(--ink-soft); }
   .project--wide .project__poster { width: 100%; max-width: none; aspect-ratio: auto; }
   .project--wide .project__poster img.poster-zoom { transform: scale(1.04); transform-origin: center; }
   .project--tall { grid-template-columns: 1fr; }
-  .project--tall .project__poster { width: 240px; max-width: 66%; aspect-ratio: 961 / 1600; }
+  .project--tall .project__poster { width: 240px; max-width: 66%; aspect-ratio: 971 / 1620; margin-inline: auto; }
   .hero { padding: 7rem 1.2rem 4.5rem; }
   .hero__actions { flex-direction: column; align-items: stretch; }
   .hero__actions .btn { width: 100%; }
