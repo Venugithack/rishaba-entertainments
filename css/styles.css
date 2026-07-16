@@ -316,9 +316,9 @@ p { color: var(--ink-soft); }
 }
 .project__poster img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-/* Horizontal posters — full-width banner sized to each image's own ratio */
-.project--wide { grid-template-columns: 1fr; gap: 1.4rem; }
-.project--wide .project__poster { min-height: 0; width: 100%; aspect-ratio: auto; }
+/* Horizontal posters — left column sized to each image's own ratio */
+.project--wide { grid-template-columns: 300px 1fr; gap: 1.4rem; align-items: start; }
+.project--wide .project__poster { align-self: start; min-height: 0; width: 100%; aspect-ratio: auto; }
 .project--wide .project__poster img { height: auto; object-fit: contain; }
 .project--wide .project__poster img.poster-zoom { transform: scale(1.02); transform-origin: center; }
 
