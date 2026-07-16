@@ -433,7 +433,9 @@ p { color: var(--ink-soft); }
   background: linear-gradient(135deg, var(--blue-2), var(--blue-deep));
   box-shadow: 0 0 0 4px rgba(91,133,184,.1);
 }
-.collab-card__name { font-family: var(--serif); font-size: 1.1rem; color: var(--ink); margin: 0; line-height: 1.2; }
+.collab-card__name { font-family: var(--serif); font-size: 1.1rem; color: var(--ink); margin: 0; line-height: 1.2; white-space: nowrap; }
+/* Film credit rides on the name line, so it is sized down to fit beside it */
+.name-film { font-family: var(--sans); font-size: .74rem; font-weight: 600; color: var(--blue); letter-spacing: .01em; }
 .collab-card__role { font-size: .72rem; text-transform: uppercase; letter-spacing: .14em; color: var(--blue); margin: .3rem 0 0; }
 .collab-card__proj { font-size: .82rem; color: var(--ink-dim); margin: .15rem 0 0; }
 .proj-hl { color: var(--blue); font-weight: 600; }
